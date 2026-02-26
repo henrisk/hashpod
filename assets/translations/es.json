@@ -1,0 +1,67 @@
+{
+    "app": {
+        "name": "Hashpod",
+        "tagline": "Tu flota, de un vistazo."
+    },
+    "nav": {
+        "fleet": "Flota",
+        "settings": "Configuración"
+    },
+    "server": {
+        "add": "Agregar Servidor",
+        "edit": "Editar Servidor",
+        "remove": "Eliminar Servidor",
+        "displayName": "Nombre de Pantalla",
+        "host": "Host / IP",
+        "port": "Puerto",
+        "user": "Usuario SSH",
+        "privateKeyPath": "Ruta de la Clave Privada",
+        "manager": "Gestor de Contenedores",
+        "connectionType": "Tipo de Conexión",
+        "connectionTypeLocal": "Local (socket)",
+        "connectionTypeRemote": "Remota (SSH)",
+        "noServers": "Sin servidores aún.\nHaz clic en + para agregar el primero.",
+        "statusOnline": "En línea",
+        "statusOffline": "Sin conexión",
+        "statusConnecting": "Conectando..."
+    },
+    "container": {
+        "running": "Corriendo",
+        "stopped": "Detenido",
+        "paused": "Pausado",
+        "all": "Todos",
+        "search": "Buscar contenedores...",
+        "name": "Nombre",
+        "image": "Imagen",
+        "ports": "Puertos",
+        "status": "Estado",
+        "cpu": "CPU",
+        "memory": "Memoria",
+        "actions": {
+            "start": "Iniciar",
+            "stop": "Detener",
+            "restart": "Reiniciar",
+            "remove": "Eliminar",
+            "logs": "Ver Logs"
+        }
+    },
+    "dashboard": {
+        "totalCpu": "CPU Total",
+        "totalRam": "RAM Total",
+        "containersRunning": "Corriendo",
+        "containersStopped": "Detenidos"
+    },
+    "dialog": {
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "confirm": "Confirmar",
+        "delete": "Eliminar",
+        "confirmRemoveServer": "¿Eliminar este servidor de tu flota?",
+        "confirmRemoveContainer": "Esto eliminará el contenedor permanentemente. ¿Continuar?"
+    },
+    "error": {
+        "connectionFailed": "Error de conexión",
+        "timeout": "Se agotó el tiempo de conexión",
+        "unknown": "Ocurrió un error inesperado"
+    }
+}

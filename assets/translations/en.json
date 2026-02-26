@@ -1,0 +1,67 @@
+{
+  "app": {
+    "name": "Hashpod",
+    "tagline": "Your fleet, at a glance."
+  },
+  "nav": {
+    "fleet": "Fleet",
+    "settings": "Settings"
+  },
+  "server": {
+    "add": "Add Server",
+    "edit": "Edit Server",
+    "remove": "Remove Server",
+    "displayName": "Display Name",
+    "host": "Host / IP",
+    "port": "Port",
+    "user": "SSH User",
+    "privateKeyPath": "Private Key Path",
+    "manager": "Container Manager",
+    "connectionType": "Connection Type",
+    "connectionTypeLocal": "Local (socket)",
+    "connectionTypeRemote": "Remote (SSH)",
+    "noServers": "No servers yet.\nClick + to add your first server.",
+    "statusOnline": "Online",
+    "statusOffline": "Offline",
+    "statusConnecting": "Connecting..."
+  },
+  "container": {
+    "running": "Running",
+    "stopped": "Stopped",
+    "paused": "Paused",
+    "all": "All",
+    "search": "Search containers...",
+    "name": "Name",
+    "image": "Image",
+    "ports": "Ports",
+    "status": "Status",
+    "cpu": "CPU",
+    "memory": "Memory",
+    "actions": {
+      "start": "Start",
+      "stop": "Stop",
+      "restart": "Restart",
+      "remove": "Remove",
+      "logs": "View Logs"
+    }
+  },
+  "dashboard": {
+    "totalCpu": "Total CPU",
+    "totalRam": "Total RAM",
+    "containersRunning": "Running",
+    "containersStopped": "Stopped"
+  },
+  "dialog": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "confirmRemoveServer": "Remove this server from your fleet?",
+    "confirmRemoveContainer": "This will permanently remove the container. Continue?"
+  },
+  "error": {
+    "connectionFailed": "Connection failed",
+    "timeout": "Connection timed out",
+    "unknown": "An unexpected error occurred"
+  }
+}

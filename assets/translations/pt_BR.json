@@ -1,0 +1,67 @@
+{
+    "app": {
+        "name": "Hashpod",
+        "tagline": "Sua frota, de relance."
+    },
+    "nav": {
+        "fleet": "Frota",
+        "settings": "Configurações"
+    },
+    "server": {
+        "add": "Adicionar Servidor",
+        "edit": "Editar Servidor",
+        "remove": "Remover Servidor",
+        "displayName": "Nome de Exibição",
+        "host": "Host / IP",
+        "port": "Porta",
+        "user": "Usuário SSH",
+        "privateKeyPath": "Caminho da Chave Privada",
+        "manager": "Gerenciador de Containers",
+        "connectionType": "Tipo de Conexão",
+        "connectionTypeLocal": "Local (socket)",
+        "connectionTypeRemote": "Remota (SSH)",
+        "noServers": "Nenhum servidor ainda.\nClique em + para adicionar o primeiro.",
+        "statusOnline": "Online",
+        "statusOffline": "Offline",
+        "statusConnecting": "Conectando..."
+    },
+    "container": {
+        "running": "Rodando",
+        "stopped": "Parado",
+        "paused": "Pausado",
+        "all": "Todos",
+        "search": "Buscar containers...",
+        "name": "Nome",
+        "image": "Imagem",
+        "ports": "Portas",
+        "status": "Status",
+        "cpu": "CPU",
+        "memory": "Memória",
+        "actions": {
+            "start": "Iniciar",
+            "stop": "Parar",
+            "restart": "Reiniciar",
+            "remove": "Remover",
+            "logs": "Ver Logs"
+        }
+    },
+    "dashboard": {
+        "totalCpu": "CPU Total",
+        "totalRam": "RAM Total",
+        "containersRunning": "Rodando",
+        "containersStopped": "Parados"
+    },
+    "dialog": {
+        "cancel": "Cancelar",
+        "save": "Salvar",
+        "confirm": "Confirmar",
+        "delete": "Excluir",
+        "confirmRemoveServer": "Remover este servidor da sua frota?",
+        "confirmRemoveContainer": "Isso vai remover o container permanentemente. Continuar?"
+    },
+    "error": {
+        "connectionFailed": "Falha na conexão",
+        "timeout": "Conexão expirou",
+        "unknown": "Ocorreu um erro inesperado"
+    }
+}
